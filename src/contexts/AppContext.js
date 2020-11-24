@@ -1,4 +1,5 @@
 import React, { createContext, useContext, useReducer } from 'react'
+import { PropTypes } from 'prop-types'
 
 const AppContext = createContext()
 
@@ -17,12 +18,12 @@ function appReducer(state, action) {
   }
 }
 
-export default function AppContextProvider({children}) {
+export default function AppContextProvider({ children }) {
   const [state, dispatch] = useReducer(appReducer, initState)
 
-  return (
-    <AppContext.Provider value={{ state, dispatch }}>
-      {children}
-    </AppContext.Provider>
-  )
+  return <AppContext.Provider value={{ state, dispatch }}>{children}</AppContext.Provider>
+}
+
+AppContextProvider.propTypes = {
+  children: PropTypes.element.isRequired,
 }
