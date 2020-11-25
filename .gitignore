@@ -144,3 +144,12 @@ Icon
 Network Trash Folder
 Temporary Items
 .apdisk
+
+# YARN
+yarn-error.log
+.yarn/*
+!.yarn/cache
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
