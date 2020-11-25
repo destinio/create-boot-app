@@ -3017,6 +3017,50 @@ __metadata:
   languageName: node
   linkType: hard
 
+"create-boot-app@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "create-boot-app@workspace:."
+  dependencies:
+    "@babel/core": ^7.12.3
+    "@babel/plugin-transform-runtime": ^7.12.1
+    "@babel/preset-env": ^7.12.1
+    "@babel/preset-react": ^7.12.5
+    "@babel/runtime": ^7.12.5
+    "@popperjs/core": ^2.5.4
+    autoprefixer: ^10.0.2
+    babel-loader: ^8.2.1
+    babel-plugin-styled-components: ^1.11.1
+    babel-plugin-transform-class-properties: ^6.24.1
+    bootstrap: ^4.5.3
+    css-loader: ^5.0.1
+    eslint: ^7.14.0
+    eslint-config-airbnb: ^18.2.1
+    eslint-plugin-import: ^2.22.1
+    eslint-plugin-jsx-a11y: ^6.4.1
+    eslint-plugin-react: ^7.21.5
+    eslint-plugin-react-hooks: ^4.2.0
+    html-loader: ^1.3.2
+    html-webpack-plugin: ^4.5.0
+    jquery: ^3.5.1
+    mini-css-extract-plugin: ^1.3.1
+    popper.js: ^1.16.1
+    postcss: ^8.1.7
+    postcss-loader: ^4.0.4
+    prop-types: ^15.7.2
+    react: ^17.0.1
+    react-bootstrap: ^1.4.0
+    react-dom: ^17.0.1
+    react-is: ^17.0.1
+    sass: ^1.29.0
+    sass-loader: ^10.1.0
+    styled-components: ^5.2.1
+    url-loader: ^4.1.1
+    webpack: ^5.4.0
+    webpack-cli: ^4.2.0
+    webpack-dev-server: ^3.11.0
+  languageName: unknown
+  linkType: soft
+
 "cross-spawn@npm:^6.0.0":
   version: 6.0.5
   resolution: "cross-spawn@npm:6.0.5"
@@ -6971,50 +7015,6 @@ fsevents@~2.1.2:
   checksum: 9ac160925e1ce1c8f81496ac037e3da8ea18221324977c7b0a0ee3815fcc808b69399cdcf2937c6433869c62ad76eede426a9c1e7685cfd83beaac1d575f86b5
   languageName: node
   linkType: hard
-
-"react-bootstrap@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "react-bootstrap@workspace:."
-  dependencies:
-    "@babel/core": ^7.12.3
-    "@babel/plugin-transform-runtime": ^7.12.1
-    "@babel/preset-env": ^7.12.1
-    "@babel/preset-react": ^7.12.5
-    "@babel/runtime": ^7.12.5
-    "@popperjs/core": ^2.5.4
-    autoprefixer: ^10.0.2
-    babel-loader: ^8.2.1
-    babel-plugin-styled-components: ^1.11.1
-    babel-plugin-transform-class-properties: ^6.24.1
-    bootstrap: ^4.5.3
-    css-loader: ^5.0.1
-    eslint: ^7.14.0
-    eslint-config-airbnb: ^18.2.1
-    eslint-plugin-import: ^2.22.1
-    eslint-plugin-jsx-a11y: ^6.4.1
-    eslint-plugin-react: ^7.21.5
-    eslint-plugin-react-hooks: ^4.2.0
-    html-loader: ^1.3.2
-    html-webpack-plugin: ^4.5.0
-    jquery: ^3.5.1
-    mini-css-extract-plugin: ^1.3.1
-    popper.js: ^1.16.1
-    postcss: ^8.1.7
-    postcss-loader: ^4.0.4
-    prop-types: ^15.7.2
-    react: ^17.0.1
-    react-bootstrap: ^1.4.0
-    react-dom: ^17.0.1
-    react-is: ^17.0.1
-    sass: ^1.29.0
-    sass-loader: ^10.1.0
-    styled-components: ^5.2.1
-    url-loader: ^4.1.1
-    webpack: ^5.4.0
-    webpack-cli: ^4.2.0
-    webpack-dev-server: ^3.11.0
-  languageName: unknown
-  linkType: soft
 
 "react-dom@npm:^17.0.1":
   version: 17.0.1
