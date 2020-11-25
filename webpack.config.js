@@ -18,7 +18,11 @@ module.exports = {
       {
         test: /\.(js|jsx)$/,
         exclude: /node_modules/,
-        use: require.resolve('babel-loader'),
+        use: [
+          {
+            loader: require.resolve('babel-loader'),
+          },
+        ],
       },
       {
         test: /\.(png|jpg|gif|svg|eot|ttf|woff|woff2)$/,
