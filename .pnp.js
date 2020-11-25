@@ -42,6 +42,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@babel/preset-env", "virtual:7356c1c12fcd162d3c1436b84de178afb1b60139ce8d5a7f72f743d6cb714cfa3e8077c3c393ee93b2d5d5cc830c0a6aabf8e2601529ef8f76a18f46d7001552#npm:7.12.7"],
             ["@babel/preset-react", "virtual:7356c1c12fcd162d3c1436b84de178afb1b60139ce8d5a7f72f743d6cb714cfa3e8077c3c393ee93b2d5d5cc830c0a6aabf8e2601529ef8f76a18f46d7001552#npm:7.12.7"],
             ["@babel/runtime", "npm:7.12.5"],
+            ["@popperjs/core", "npm:2.5.4"],
             ["autoprefixer", "virtual:7356c1c12fcd162d3c1436b84de178afb1b60139ce8d5a7f72f743d6cb714cfa3e8077c3c393ee93b2d5d5cc830c0a6aabf8e2601529ef8f76a18f46d7001552#npm:10.0.2"],
             ["babel-loader", "virtual:7356c1c12fcd162d3c1436b84de178afb1b60139ce8d5a7f72f743d6cb714cfa3e8077c3c393ee93b2d5d5cc830c0a6aabf8e2601529ef8f76a18f46d7001552#npm:8.2.1"],
             ["babel-plugin-styled-components", "virtual:7356c1c12fcd162d3c1436b84de178afb1b60139ce8d5a7f72f743d6cb714cfa3e8077c3c393ee93b2d5d5cc830c0a6aabf8e2601529ef8f76a18f46d7001552#npm:1.12.0"],
@@ -56,13 +57,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-plugin-react-hooks", "virtual:7356c1c12fcd162d3c1436b84de178afb1b60139ce8d5a7f72f743d6cb714cfa3e8077c3c393ee93b2d5d5cc830c0a6aabf8e2601529ef8f76a18f46d7001552#npm:4.2.0"],
             ["html-loader", "virtual:7356c1c12fcd162d3c1436b84de178afb1b60139ce8d5a7f72f743d6cb714cfa3e8077c3c393ee93b2d5d5cc830c0a6aabf8e2601529ef8f76a18f46d7001552#npm:1.3.2"],
             ["html-webpack-plugin", "virtual:7356c1c12fcd162d3c1436b84de178afb1b60139ce8d5a7f72f743d6cb714cfa3e8077c3c393ee93b2d5d5cc830c0a6aabf8e2601529ef8f76a18f46d7001552#npm:4.5.0"],
+            ["jquery", "npm:3.5.1"],
             ["mini-css-extract-plugin", "virtual:7356c1c12fcd162d3c1436b84de178afb1b60139ce8d5a7f72f743d6cb714cfa3e8077c3c393ee93b2d5d5cc830c0a6aabf8e2601529ef8f76a18f46d7001552#npm:1.3.1"],
+            ["popper.js", "npm:1.16.1"],
             ["postcss", "npm:8.1.10"],
             ["postcss-loader", "virtual:7356c1c12fcd162d3c1436b84de178afb1b60139ce8d5a7f72f743d6cb714cfa3e8077c3c393ee93b2d5d5cc830c0a6aabf8e2601529ef8f76a18f46d7001552#npm:4.1.0"],
             ["prop-types", "npm:15.7.2"],
             ["react", "npm:17.0.1"],
             ["react-bootstrap", "virtual:7356c1c12fcd162d3c1436b84de178afb1b60139ce8d5a7f72f743d6cb714cfa3e8077c3c393ee93b2d5d5cc830c0a6aabf8e2601529ef8f76a18f46d7001552#npm:1.4.0"],
             ["react-dom", "virtual:7356c1c12fcd162d3c1436b84de178afb1b60139ce8d5a7f72f743d6cb714cfa3e8077c3c393ee93b2d5d5cc830c0a6aabf8e2601529ef8f76a18f46d7001552#npm:17.0.1"],
+            ["react-is", "npm:17.0.1"],
             ["sass", "npm:1.29.0"],
             ["sass-loader", "virtual:7356c1c12fcd162d3c1436b84de178afb1b60139ce8d5a7f72f743d6cb714cfa3e8077c3c393ee93b2d5d5cc830c0a6aabf8e2601529ef8f76a18f46d7001552#npm:10.1.0"],
             ["styled-components", "virtual:7356c1c12fcd162d3c1436b84de178afb1b60139ce8d5a7f72f743d6cb714cfa3e8077c3c393ee93b2d5d5cc830c0a6aabf8e2601529ef8f76a18f46d7001552#npm:5.2.1"],
@@ -3135,8 +3139,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["bootstrap", "virtual:7356c1c12fcd162d3c1436b84de178afb1b60139ce8d5a7f72f743d6cb714cfa3e8077c3c393ee93b2d5d5cc830c0a6aabf8e2601529ef8f76a18f46d7001552#npm:4.5.3"],
             ["@types/jquery", null],
             ["@types/popper.js", null],
-            ["jquery", null],
-            ["popper.js", null]
+            ["jquery", "npm:3.5.1"],
+            ["popper.js", "npm:1.16.1"]
           ],
           "packagePeers": [
             "@types/jquery",
@@ -6392,6 +6396,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
+      ["jquery", [
+        ["npm:3.5.1", {
+          "packageLocation": "./.yarn/cache/jquery-npm-3.5.1-965b25dbd8-c50818c848.zip/node_modules/jquery/",
+          "packageDependencies": [
+            ["jquery", "npm:3.5.1"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
       ["js-tokens", [
         ["npm:3.0.2", {
           "packageLocation": "./.yarn/cache/js-tokens-npm-3.0.2-fe6fb334bd-81e634d5a9.zip/node_modules/js-tokens/",
@@ -7849,6 +7862,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
+      ["popper.js", [
+        ["npm:1.16.1", {
+          "packageLocation": "./.yarn/cache/popper.js-npm-1.16.1-a99192bd83-eb53806fb7.zip/node_modules/popper.js/",
+          "packageDependencies": [
+            ["popper.js", "npm:1.16.1"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
       ["portfinder", [
         ["npm:1.0.28", {
           "packageLocation": "./.yarn/cache/portfinder-npm-1.0.28-12c37407ab-906dc51482.zip/node_modules/portfinder/",
@@ -8236,6 +8258,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@babel/preset-env", "virtual:7356c1c12fcd162d3c1436b84de178afb1b60139ce8d5a7f72f743d6cb714cfa3e8077c3c393ee93b2d5d5cc830c0a6aabf8e2601529ef8f76a18f46d7001552#npm:7.12.7"],
             ["@babel/preset-react", "virtual:7356c1c12fcd162d3c1436b84de178afb1b60139ce8d5a7f72f743d6cb714cfa3e8077c3c393ee93b2d5d5cc830c0a6aabf8e2601529ef8f76a18f46d7001552#npm:7.12.7"],
             ["@babel/runtime", "npm:7.12.5"],
+            ["@popperjs/core", "npm:2.5.4"],
             ["autoprefixer", "virtual:7356c1c12fcd162d3c1436b84de178afb1b60139ce8d5a7f72f743d6cb714cfa3e8077c3c393ee93b2d5d5cc830c0a6aabf8e2601529ef8f76a18f46d7001552#npm:10.0.2"],
             ["babel-loader", "virtual:7356c1c12fcd162d3c1436b84de178afb1b60139ce8d5a7f72f743d6cb714cfa3e8077c3c393ee93b2d5d5cc830c0a6aabf8e2601529ef8f76a18f46d7001552#npm:8.2.1"],
             ["babel-plugin-styled-components", "virtual:7356c1c12fcd162d3c1436b84de178afb1b60139ce8d5a7f72f743d6cb714cfa3e8077c3c393ee93b2d5d5cc830c0a6aabf8e2601529ef8f76a18f46d7001552#npm:1.12.0"],
@@ -8250,13 +8273,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-plugin-react-hooks", "virtual:7356c1c12fcd162d3c1436b84de178afb1b60139ce8d5a7f72f743d6cb714cfa3e8077c3c393ee93b2d5d5cc830c0a6aabf8e2601529ef8f76a18f46d7001552#npm:4.2.0"],
             ["html-loader", "virtual:7356c1c12fcd162d3c1436b84de178afb1b60139ce8d5a7f72f743d6cb714cfa3e8077c3c393ee93b2d5d5cc830c0a6aabf8e2601529ef8f76a18f46d7001552#npm:1.3.2"],
             ["html-webpack-plugin", "virtual:7356c1c12fcd162d3c1436b84de178afb1b60139ce8d5a7f72f743d6cb714cfa3e8077c3c393ee93b2d5d5cc830c0a6aabf8e2601529ef8f76a18f46d7001552#npm:4.5.0"],
+            ["jquery", "npm:3.5.1"],
             ["mini-css-extract-plugin", "virtual:7356c1c12fcd162d3c1436b84de178afb1b60139ce8d5a7f72f743d6cb714cfa3e8077c3c393ee93b2d5d5cc830c0a6aabf8e2601529ef8f76a18f46d7001552#npm:1.3.1"],
+            ["popper.js", "npm:1.16.1"],
             ["postcss", "npm:8.1.10"],
             ["postcss-loader", "virtual:7356c1c12fcd162d3c1436b84de178afb1b60139ce8d5a7f72f743d6cb714cfa3e8077c3c393ee93b2d5d5cc830c0a6aabf8e2601529ef8f76a18f46d7001552#npm:4.1.0"],
             ["prop-types", "npm:15.7.2"],
             ["react", "npm:17.0.1"],
             ["react-bootstrap", "virtual:7356c1c12fcd162d3c1436b84de178afb1b60139ce8d5a7f72f743d6cb714cfa3e8077c3c393ee93b2d5d5cc830c0a6aabf8e2601529ef8f76a18f46d7001552#npm:1.4.0"],
             ["react-dom", "virtual:7356c1c12fcd162d3c1436b84de178afb1b60139ce8d5a7f72f743d6cb714cfa3e8077c3c393ee93b2d5d5cc830c0a6aabf8e2601529ef8f76a18f46d7001552#npm:17.0.1"],
+            ["react-is", "npm:17.0.1"],
             ["sass", "npm:1.29.0"],
             ["sass-loader", "virtual:7356c1c12fcd162d3c1436b84de178afb1b60139ce8d5a7f72f743d6cb714cfa3e8077c3c393ee93b2d5d5cc830c0a6aabf8e2601529ef8f76a18f46d7001552#npm:10.1.0"],
             ["styled-components", "virtual:7356c1c12fcd162d3c1436b84de178afb1b60139ce8d5a7f72f743d6cb714cfa3e8077c3c393ee93b2d5d5cc830c0a6aabf8e2601529ef8f76a18f46d7001552#npm:5.2.1"],
@@ -8291,6 +8317,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/react-is-npm-16.13.1-a9b9382b4f-11bcf1267a.zip/node_modules/react-is/",
           "packageDependencies": [
             ["react-is", "npm:16.13.1"]
+          ],
+          "linkType": "HARD",
+        }],
+        ["npm:17.0.1", {
+          "packageLocation": "./.yarn/cache/react-is-npm-17.0.1-876b80f7e5-5a83dfc78e.zip/node_modules/react-is/",
+          "packageDependencies": [
+            ["react-is", "npm:17.0.1"]
           ],
           "linkType": "HARD",
         }]
@@ -9522,7 +9555,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["hoist-non-react-statics", "npm:3.3.2"],
             ["react", "npm:17.0.1"],
             ["react-dom", "virtual:7356c1c12fcd162d3c1436b84de178afb1b60139ce8d5a7f72f743d6cb714cfa3e8077c3c393ee93b2d5d5cc830c0a6aabf8e2601529ef8f76a18f46d7001552#npm:17.0.1"],
-            ["react-is", null],
+            ["react-is", "npm:17.0.1"],
             ["shallowequal", "npm:1.1.0"],
             ["supports-color", "npm:5.5.0"]
           ],
