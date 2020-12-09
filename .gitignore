@@ -139,7 +139,6 @@ Temporary Items
 .apdisk
 
 # yarn v2
-yarn-error.log
 .yarn/*
 !.yarn/cache
 !.yarn/releases
