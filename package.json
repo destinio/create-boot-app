@@ -6,8 +6,10 @@
     "build:prod": "webpack --mode production",
     "build:dev": "webpack --mode development",
     "watch": "webpack --watch",
-    "start": "webpack serve --open src/index.js",
-    "lint": "eslint --color src/"
+    "start": "webpack serve --client-log-level debug --open src/index.js",
+    "lint:js": "eslint --color src/",
+    "lint:css": "stylelint src/",
+    "lint": "yarn lint:js && yarn lint:css"
   },
   "license": "MIT",
   "devDependencies": {
@@ -35,6 +37,9 @@
     "postcss-loader": "^4.0.4",
     "sass": "^1.29.0",
     "sass-loader": "^10.1.0",
+    "stylelint": "^13.8.0",
+    "stylelint-config-sass-guidelines": "^7.1.0",
+    "stylelint-order": "^4.1.0",
     "url-loader": "^4.1.1",
     "webpack": "^5.6.0",
     "webpack-cli": "^4.2.0",

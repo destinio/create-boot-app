@@ -12,6 +12,10 @@ module.exports = {
   devServer: {
     contentBase: path.resolve(__dirname, 'build'),
     port: 9000,
+    overlay: {
+      warnings: true,
+      errors: true,
+    },
   },
   module: {
     rules: [
