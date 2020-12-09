@@ -2,15 +2,14 @@ const HtmlWebpackPlugin = require('html-webpack-plugin')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 const path = require('path')
 
-module.exports = {
+const config = {
   entry: './src/index.js',
   output: {
     path: path.resolve(__dirname, 'build'),
     filename: 'bundle.js',
-    publicPath: '/',
+    publicPath: '',
   },
   devServer: {
-    contentBase: path.resolve(__dirname, 'build'),
     port: 9000,
     overlay: {
       warnings: true,
@@ -58,4 +57,12 @@ module.exports = {
     }),
     new MiniCssExtractPlugin(),
   ],
+}
+
+module.exports = (env, argv) => {
+  if (argv.mode === 'development') {
+    config.devtool = 'eval-source-map'
+  }
+
+  return config
 }

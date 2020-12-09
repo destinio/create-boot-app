@@ -6,7 +6,7 @@
     "build:prod": "webpack --mode production",
     "build:dev": "webpack --mode development",
     "watch": "webpack --watch",
-    "start": "webpack serve --client-log-level debug --open src/index.js",
+    "start": "webpack serve --client-log-level debug --mode development --open src/index.js",
     "lint:js": "eslint --color src/",
     "lint:css": "stylelint src/",
     "lint": "yarn lint:js && yarn lint:css"
