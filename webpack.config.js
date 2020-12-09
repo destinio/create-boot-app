@@ -41,6 +41,7 @@ module.exports = {
           MiniCssExtractPlugin.loader,
           require.resolve('css-loader'),
           require.resolve('sass-loader'),
+          require.resolve('postcss-loader'),
         ],
       },
     ],
