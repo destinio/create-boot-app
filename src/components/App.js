@@ -9,7 +9,6 @@ export default function App() {
       <Container>
         <h1>Welcome</h1>
         <p>React + Bootstrap</p>
-        <h1>{ing}</h1>
       </Container>
     </Jumbotron>
   )
