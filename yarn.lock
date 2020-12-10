@@ -2979,17 +2979,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"clone-deep@npm:^4.0.1":
-  version: 4.0.1
-  resolution: "clone-deep@npm:4.0.1"
-  dependencies:
-    is-plain-object: ^2.0.4
-    kind-of: ^6.0.2
-    shallow-clone: ^3.0.0
-  checksum: b0146d66cabc7e609d23d10155dcc88e2f74b03539b3b65f8a05f889500e2a78b6c6265a744445d009d512a1afa16836f62aa5737d462027142984c2d41130c8
-  languageName: node
-  linkType: hard
-
 "clone-regexp@npm:^2.1.0":
   version: 2.2.0
   resolution: "clone-regexp@npm:2.2.0"
@@ -3305,7 +3294,6 @@ __metadata:
     webpack: ^5.6.0
     webpack-cli: ^4.2.0
     webpack-dev-server: ^3.11.0
-    webpack-merge: ^5.4.1
   languageName: unknown
   linkType: soft
 
@@ -8623,15 +8611,6 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"shallow-clone@npm:^3.0.0":
-  version: 3.0.1
-  resolution: "shallow-clone@npm:3.0.1"
-  dependencies:
-    kind-of: ^6.0.2
-  checksum: e329e054c286f0681fd8a9e5c353999519332f12510a99e189ea9cfa0337adb6f1414639d44493418ef6790a693b78c354525269f5db25a9feddd8b4d7891a62
-  languageName: node
-  linkType: hard
-
 "shallowequal@npm:^1.1.0":
   version: 1.1.0
   resolution: "shallowequal@npm:1.1.0"
@@ -10029,16 +10008,6 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"webpack-merge@npm:^5.4.1":
-  version: 5.4.1
-  resolution: "webpack-merge@npm:5.4.1"
-  dependencies:
-    clone-deep: ^4.0.1
-    wildcard: ^2.0.0
-  checksum: c6c11151f294617a9c3e2fed2a84328b0955e661fd020fc186e1d86aebe6de2195e811fc10632d2ac0f54b803ed59309c09edab13b5397551c5a5d7d18fff32b
-  languageName: node
-  linkType: hard
-
 "webpack-sources@npm:^1.1.0":
   version: 1.4.3
   resolution: "webpack-sources@npm:1.4.3"
@@ -10158,13 +10127,6 @@ fsevents@~2.1.2:
   dependencies:
     string-width: ^1.0.2 || 2
   checksum: 4f850f84da84b7471d7b92f55e381e7ba286210470fe77a61e02464ef66d10e96057a0d137bc013fbbedb7363a26e79c0e8b21d99bb572467d3fee0465b8fd27
-  languageName: node
-  linkType: hard
-
-"wildcard@npm:^2.0.0":
-  version: 2.0.0
-  resolution: "wildcard@npm:2.0.0"
-  checksum: 207baede4d6d41fc1aefcc4727c95ca6f29eaaf4d66478665fe0ac17232709637426ae96fd79deb3b68da3564e7bde7f2be63e5c3665ac8f63ee92364c0a2dd3
   languageName: node
   linkType: hard
 

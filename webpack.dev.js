@@ -6,10 +6,11 @@ module.exports = merge(common, {
   devtool: 'eval-source-map',
   devServer: {
     port: 9000,
+    publicPath: '/',
+    clientLogLevel: 'debug',
     overlay: {
       warnings: true,
       errors: true,
-      clientLogLevel: 'debug',
     },
   },
 })
