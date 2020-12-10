@@ -6,7 +6,7 @@
     "build:prod": "webpack --config webpack.prod.js",
     "build:dev": "webpack --config webpack.dev.js",
     "watch": "webpack --watch",
-    "start": "webpack serve --config webpack.dev.js --open src/index.js",
+    "start": "webpack serve --config webpack.dev.js",
     "lint:js": "eslint --color src/",
     "lint:css": "stylelint src/",
     "lint": "yarn lint:js && yarn lint:css"

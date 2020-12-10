@@ -8,6 +8,7 @@ module.exports = merge(common, {
     port: 9000,
     publicPath: '/',
     clientLogLevel: 'debug',
+    open: 'Google Chrome',
     overlay: {
       warnings: true,
       errors: true,
