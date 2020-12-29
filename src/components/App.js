@@ -1,7 +1,7 @@
 import React from 'react'
 import { Container, Jumbotron } from 'react-bootstrap'
 
-import 'bootstrap/dist/css/bootstrap.css'
+import '../styles/bootstrap.min.css'
 
 export default function App() {
   return (

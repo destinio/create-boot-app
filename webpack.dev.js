@@ -9,6 +9,7 @@ module.exports = merge(common, {
     publicPath: '/',
     clientLogLevel: 'debug',
     open: 'Google Chrome',
+    watchContentBase: true,
     overlay: {
       warnings: true,
       errors: true,
