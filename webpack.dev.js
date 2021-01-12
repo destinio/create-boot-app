@@ -7,6 +7,7 @@ module.exports = merge(common, {
   devServer: {
     port: 9000,
     publicPath: '/',
+    historyApiFallback: true,
     clientLogLevel: 'debug',
     open: 'Google Chrome',
     watchContentBase: true,
