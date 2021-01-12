@@ -17,7 +17,7 @@ function Home() {
 function Nav() {
   return (
     <div>
-      <Link to="/about">about</Link>
+      <Link to="/about">about1</Link>
       <Link to="/">home</Link>
     </div>
   )
