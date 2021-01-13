@@ -1,6 +1,14 @@
 import { createGlobalStyle } from 'styled-components'
 
 const GlobalStyle = createGlobalStyle`
+  :root {
+    --black: #000f;
+    --oxford-blue: #14213dff;
+    --orange-web: #fca311ff;
+    --platinum: #e5e5e5ff;
+    --white: #ffff;
+  }
+
   * {
     box-sizing: border-box;
   }
@@ -12,16 +20,18 @@ const GlobalStyle = createGlobalStyle`
   }
 
   body {
-    color: #111;
+    background-color: var(---white);
+    color: var(--black);
     font-family: sans-serif;
   }
 
   a {
     text-decoration: none;
 
-    &:visited {
-      color: #111;
-    }
+    &:link { color: var(--oxford-blue); }
+    &:hover { color: var(----orange-web); }
+    &:visited { color: var(--oxford-blue); }
+    &:active { color: var(--oxford-blue); }
   }
 
   ul,
