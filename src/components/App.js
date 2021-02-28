@@ -13,7 +13,6 @@ export default function App() {
   return (
     <>
       <GlobalStyle />
-      <h1>Welcome</h1>
       <Switch>
         <Route path="/about">
           <About />
