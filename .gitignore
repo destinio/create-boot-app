@@ -139,9 +139,9 @@ Temporary Items
 .apdisk
 
 # yarn v2
-.yarn/*
-!.yarn/cache
-!.yarn/releases
-!.yarn/plugins
-!.yarn/sdks
-!.yarn/versions
+# .yarn/*
+# !.yarn/cache
+# !.yarn/releases
+# !.yarn/plugins
+# !.yarn/sdks
+# !.yarn/versions
