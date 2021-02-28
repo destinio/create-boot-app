@@ -11,7 +11,7 @@
     "lint:js": "eslint --color src/",
     "lint:css": "stylelint src/",
     "lint": "yarn lint:js && yarn lint:css",
-    "test": "jest"
+    "test": "jest --watchAll"
   },
   "license": "MIT",
   "devDependencies": {
