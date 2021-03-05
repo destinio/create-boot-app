@@ -6,9 +6,6 @@ import GlobalStyle from '../styles/styles'
 import About from './About'
 import Home from './Home'
 
-// If you would like to use bootstrap uncomment below
-// import '../styles/bootstrap.min.css'
-
 export default function App() {
   return (
     <>

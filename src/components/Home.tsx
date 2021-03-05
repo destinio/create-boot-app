@@ -1,29 +1,28 @@
 import React from 'react'
 import styled from 'styled-components'
-import { FaBootstrap, FaReact } from 'react-icons/fa';
-import { SiWebpack, SiJest } from 'react-icons/si';
-
+import { FaBootstrap, FaReact } from 'react-icons/fa'
+import { SiWebpack, SiJest } from 'react-icons/si'
 
 const StyledMain = styled.main`
-  height: 100vh;
+  align-items: center;
   display: flex;
   flex-direction: column;
+  height: 100vh;
   justify-content: center;
-  align-items: center;
 
   pre {
-    background-color: lightgray;
-    padding: 8px;
-    font-weight: bold;
+    background-color: #e8e2f3;
     border-radius: 4px;
+    font-weight: bold;
+    padding: 8px;
   }
 `
 
 const StyledIcons = styled.div`
-  font-size: 3rem;
-  display: flex;
-  justify-content: center;
   align-items: center;
+  display: flex;
+  font-size: 3rem;
+  justify-content: center;
 
   svg {
     margin: 0 8px;
@@ -37,7 +36,6 @@ export default function Home() {
         <FaReact />
         <SiWebpack />
         <SiJest />
-        <FaBootstrap />
       </StyledIcons>
       <h1>Welcome</h1>
       <pre>yarn</pre>

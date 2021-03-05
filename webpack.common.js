@@ -4,22 +4,23 @@ const CopyPlugin = require('copy-webpack-plugin')
 const path = require('path')
 
 module.exports = {
-  entry: './src/index.js',
+  entry: './src/index.tsx',
   output: {
     path: path.resolve(__dirname, 'build'),
     filename: 'bundle.js',
     publicPath: '',
   },
+  target: 'web',
   module: {
     rules: [
       {
-        test: /\.(js|jsx)$/,
+        test: /\.tsx?$/,
+        use: [require.resolve('babel-loader'), require.resolve('ts-loader')],
         exclude: /node_modules/,
-        use: [
-          {
-            loader: require.resolve('babel-loader'),
-          },
-        ],
+      },
+      {
+        test: /\.jsx?$/,
+        use: [{ loader: 'babel-loader' }],
       },
       {
         test: /\.(png|jpg|gif|svg|eot|ttf|woff|woff2)$/,
@@ -54,4 +55,7 @@ module.exports = {
       patterns: [{ from: 'public' }],
     }),
   ],
+  resolve: {
+    extensions: ['.js', '.jsx', '.json', '.ts', '.tsx'],
+  },
 }

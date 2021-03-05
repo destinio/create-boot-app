@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    // don't change these unless you know what you're doing
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "lib": ["dom", "esnext"],
+    "module": "esnext",
+    "moduleResolution": "node",
+    "noEmit": true,
+    "sourceMap": true,
+    "target": "esnext",
+    "plugins": [{ "name": "typescript-styled-plugin" }],
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "suppressImplicitAnyIndexErrors": true,
+    // paths
+    "baseUrl": "src/",
+    "paths": {} // add path mappings from webpack aliases here
+  },
+  "include": ["src/"],
+  "exclude": ["src/components/__tests__/"]
+}
