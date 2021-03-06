@@ -15,12 +15,8 @@ module.exports = {
     rules: [
       {
         test: /\.tsx?$/,
-        use: [require.resolve('babel-loader'), require.resolve('ts-loader')],
+        use: require.resolve('babel-loader'),
         exclude: /node_modules/,
-      },
-      {
-        test: /\.jsx?$/,
-        use: [{ loader: 'babel-loader' }],
       },
       {
         test: /\.(png|jpg|gif|svg|eot|ttf|woff|woff2)$/,

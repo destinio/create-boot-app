@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import { FaBootstrap, FaReact } from 'react-icons/fa'
-import { SiWebpack, SiJest } from 'react-icons/si'
+import { SiWebpack, SiJest, SiTypescript} from 'react-icons/si'
 
 const StyledMain = styled.main`
   align-items: center;
@@ -34,10 +34,10 @@ export default function Home() {
     <StyledMain>
       <StyledIcons>
         <FaReact />
+        <SiTypescript />
         <SiWebpack />
         <SiJest />
       </StyledIcons>
-      <h1>Welcome</h1>
       <pre>yarn</pre>
       <pre>yarn start</pre>
     </StyledMain>

@@ -1,25 +1,19 @@
 {
   "compilerOptions": {
-    // don't change these unless you know what you're doing
     "allowJs": true,
     "allowSyntheticDefaultImports": true,
     "isolatedModules": true,
-    "jsx": "preserve",
-    "lib": ["dom", "esnext"],
-    "module": "esnext",
+    "jsx": "react",
+    "module": "commonjs",
     "moduleResolution": "node",
     "noEmit": true,
     "sourceMap": true,
-    "target": "esnext",
-    "plugins": [{ "name": "typescript-styled-plugin" }],
-    "resolveJsonModule": true,
-    "skipLibCheck": true,
+    "outDir": "./build/",
+    "target": "es5",
     "strict": true,
-    "suppressImplicitAnyIndexErrors": true,
-    // paths
     "baseUrl": "src/",
-    "paths": {} // add path mappings from webpack aliases here
+    "preserveConstEnums": true
   },
-  "include": ["src/"],
+  "include": ["src/**/*"],
   "exclude": ["src/components/__tests__/"]
 }
