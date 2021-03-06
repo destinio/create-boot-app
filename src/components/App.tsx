@@ -6,7 +6,7 @@ import GlobalStyle from '../styles/styles'
 import About from './About'
 import Home from './Home'
 
-export default function App() {
+export default function App ():React.ReactElement {
   return (
     <>
       <GlobalStyle />

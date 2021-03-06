@@ -9,11 +9,13 @@
     "noEmit": true,
     "sourceMap": true,
     "outDir": "./build/",
-    "target": "es5",
+    "target": "es6",
     "strict": true,
     "baseUrl": "src/",
-    "preserveConstEnums": true
+    "preserveConstEnums": true,
   },
-  "include": ["src/**/*"],
+  "include": [
+    "src/**/*"
+  ],
   "exclude": ["src/components/__tests__/"]
 }
